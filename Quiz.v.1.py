@@ -137,6 +137,7 @@ else:
     print("Your Wrong")
 
 total_score = score_easy + score_mdm + score_hrd
+total_correct = count_easy + count_mdm + count_hrd
 
 print(f"In hard, you answered {count_hrd} out of 3 are correct")
 print(f"You scored {score_hrd} points in hard questions")
@@ -148,3 +149,4 @@ print(f"In easy, you answered {count_easy} out of 3 are correct")
 print(f"You scored {score_easy} points in easy questions")
 print("\n")
 print(f"Total Score is {total_score} out of 180")
+print(f"Total correct answers : {total_correct}")
